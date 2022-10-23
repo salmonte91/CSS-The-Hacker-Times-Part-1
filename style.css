@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+header{
+    text-align: center;
+}
+
+.date{
+    text-align: left;
+}
+h1{
+    font-family: "Abril Fatface", serif ;
+    font-size: 5em;
+}
