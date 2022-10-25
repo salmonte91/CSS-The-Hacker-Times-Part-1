@@ -10,10 +10,13 @@
     padding-right: 1em;
 }
 
-hr {
-    box-sizing: border-box;
-    display: block;
-    padding-left: 1em;
+  nav{
+    border-top: #777;
+    border-bottom: #777;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
 
 ul{
@@ -65,18 +68,9 @@ h5{
     color: #dd3232;
 }
 
-.more-articles{
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: left;
-    font-family: "Roboto Slab", serif;
-}
-
 body{
-    margin: 0;
-    padding: 0;
     font-family: "Source Sans Pro", serif;
-    text-align: center;
+    text-align: justify;
     background-color: #eee;
 }
 
